@@ -15,15 +15,14 @@
                            <div class="row">
         <div class="col-4 quan">
           <img
-            src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+            src="${product.image}"
           />
         </div>
         <div class="col-8">
           <h1>${product.title}</h1>
           <h2>Thông Tin Sản Phẩm</h2>
           <p>Giá:${product.price}</p>
-          <p>balo rộng,phù hợp cho mọi lứa tuổi</p>
-          <p>Màu đen nhạt,thoải mái khi mang</p>
+          <p>Thông tin:${product.description}</p>
           <h5>có thể ship trong 5 ngày</h5>
           <h6>Liên hệ:0913646411</h6>
           <a
