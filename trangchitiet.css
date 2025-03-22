@@ -1,0 +1,25 @@
+.quan img{
+    width:400px;
+}
+.quan{
+    padding: 40px;
+    margin-top:40px;
+}
+.soluong{
+    margin-top:40px;
+    content:200px;
+}
+.site-header {
+    background: linear-gradient(90deg, #4e54c8, #8f94fb); /* Gradient ngang */
+    color: #ffffff;
+    padding: 20px;
+  }
+  .btn-login a {
+    color: white !important;
+}
+.col-8{
+    margin-top:50px;
+}
+.btn {
+    margin-top:14px; 
+}

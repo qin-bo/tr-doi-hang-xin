@@ -1,0 +1,45 @@
+.dropdown-menu {
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+.item img  {
+  height:250px;
+  width:230px;
+  margin:20px; 
+  border:1px solid black ;
+  padding:1px;
+}
+.site-header {
+  background: linear-gradient(90deg, #4e54c8, #8f94fb); /* Gradient ngang */
+  color: #ffffff;
+  padding: 20px;
+}
+
+.site-footer {
+  background: linear-gradient(180deg, white , #121212); /* Gradient dọc */
+  color: #f0f0f0;
+  padding: 20px;
+}
+.item-may-man{
+  right:100px;
+  top:100px;
+  height:10px;
+  width:10px;
+  position: fixed;
+  border:none;
+}
+.item-may-man img{
+  width:100px;
+}
+.item-may-man {
+  animation: spin 2s linear 0s infinite; /* Gán animation */
+}
+
+@keyframes spin {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
